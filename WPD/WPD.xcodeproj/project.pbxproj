@@ -1,0 +1,627 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00FD8E423078FD6F00E96D84 /* WPDApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FD8E413078FD6F00E96D84 /* WPDApp.swift */; };
+		00FD8E443078FD6F00E96D84 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FD8E433078FD6F00E96D84 /* ContentView.swift */; };
+		00FD8E463078FD7100E96D84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00FD8E453078FD7100E96D84 /* Assets.xcassets */; };
+		00FD8E493078FD7100E96D84 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00FD8E483078FD7100E96D84 /* Preview Assets.xcassets */; };
+		00FD8E533078FD7100E96D84 /* WPDTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FD8E523078FD7100E96D84 /* WPDTests.swift */; };
+		00FD8E5D3078FD7100E96D84 /* WPDUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FD8E5C3078FD7100E96D84 /* WPDUITests.swift */; };
+		00FD8E5F3078FD7100E96D84 /* WPDUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FD8E5E3078FD7100E96D84 /* WPDUITestsLaunchTests.swift */; };
+		A20000000000000000000000 /* LeafAnalysis.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000000 /* LeafAnalysis.swift */; };
+		A20000000000000000000001 /* Imaging.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000001 /* Imaging.swift */; };
+		A20000000000000000000002 /* Records.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000002 /* Records.swift */; };
+		A20000000000000000000003 /* PhotoAnalysisView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000003 /* PhotoAnalysisView.swift */; };
+		A20000000000000000000004 /* YOLOLeafAnalyzer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000004 /* YOLOLeafAnalyzer.swift */; };
+		A20000000000000000000005 /* WheatLeaf.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000005 /* WheatLeaf.mlpackage */; };
+		A20000000000000000000006 /* YOLODemoFixture.png in Resources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000006 /* YOLODemoFixture.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00FD8E4F3078FD7100E96D84 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00FD8E363078FD6F00E96D84 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00FD8E3D3078FD6F00E96D84;
+			remoteInfo = WPD;
+		};
+		00FD8E593078FD7100E96D84 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00FD8E363078FD6F00E96D84 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00FD8E3D3078FD6F00E96D84;
+			remoteInfo = WPD;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00FD8E3E3078FD6F00E96D84 /* WPD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WPD.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		00FD8E413078FD6F00E96D84 /* WPDApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WPDApp.swift; sourceTree = "<group>"; };
+		00FD8E433078FD6F00E96D84 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		00FD8E453078FD7100E96D84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		00FD8E483078FD7100E96D84 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		00FD8E4E3078FD7100E96D84 /* WPDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WPDTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00FD8E523078FD7100E96D84 /* WPDTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WPDTests.swift; sourceTree = "<group>"; };
+		00FD8E583078FD7100E96D84 /* WPDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WPDUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00FD8E5C3078FD7100E96D84 /* WPDUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WPDUITests.swift; sourceTree = "<group>"; };
+		00FD8E5E3078FD7100E96D84 /* WPDUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WPDUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A10000000000000000000000 /* LeafAnalysis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeafAnalysis.swift; sourceTree = "<group>"; };
+		A10000000000000000000001 /* Imaging.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Imaging.swift; sourceTree = "<group>"; };
+		A10000000000000000000002 /* Records.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Records.swift; sourceTree = "<group>"; };
+		A10000000000000000000003 /* PhotoAnalysisView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoAnalysisView.swift; sourceTree = "<group>"; };
+		A10000000000000000000004 /* YOLOLeafAnalyzer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YOLOLeafAnalyzer.swift; sourceTree = "<group>"; };
+		A10000000000000000000005 /* WheatLeaf.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; path = WheatLeaf.mlpackage; sourceTree = "<group>"; };
+		A10000000000000000000006 /* YOLODemoFixture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = YOLODemoFixture.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00FD8E3B3078FD6F00E96D84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00FD8E4B3078FD7100E96D84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00FD8E553078FD7100E96D84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00FD8E353078FD6F00E96D84 = {
+			isa = PBXGroup;
+			children = (
+				00FD8E403078FD6F00E96D84 /* WPD */,
+				00FD8E513078FD7100E96D84 /* WPDTests */,
+				00FD8E5B3078FD7100E96D84 /* WPDUITests */,
+				00FD8E3F3078FD6F00E96D84 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		00FD8E3F3078FD6F00E96D84 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00FD8E3E3078FD6F00E96D84 /* WPD.app */,
+				00FD8E4E3078FD7100E96D84 /* WPDTests.xctest */,
+				00FD8E583078FD7100E96D84 /* WPDUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00FD8E403078FD6F00E96D84 /* WPD */ = {
+			isa = PBXGroup;
+			children = (
+				00FD8E413078FD6F00E96D84 /* WPDApp.swift */,
+				00FD8E433078FD6F00E96D84 /* ContentView.swift */,
+				A10000000000000000000004 /* YOLOLeafAnalyzer.swift */,
+				A10000000000000000000005 /* WheatLeaf.mlpackage */,
+				A10000000000000000000003 /* PhotoAnalysisView.swift */,
+				A10000000000000000000002 /* Records.swift */,
+				A10000000000000000000001 /* Imaging.swift */,
+				A10000000000000000000000 /* LeafAnalysis.swift */,
+				00FD8E453078FD7100E96D84 /* Assets.xcassets */,
+				00FD8E473078FD7100E96D84 /* Preview Content */,
+			);
+			path = WPD;
+			sourceTree = "<group>";
+		};
+		00FD8E473078FD7100E96D84 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				00FD8E483078FD7100E96D84 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		00FD8E513078FD7100E96D84 /* WPDTests */ = {
+			isa = PBXGroup;
+			children = (
+				00FD8E523078FD7100E96D84 /* WPDTests.swift */,
+				A10000000000000000000006 /* YOLODemoFixture.png */,
+			);
+			path = WPDTests;
+			sourceTree = "<group>";
+		};
+		00FD8E5B3078FD7100E96D84 /* WPDUITests */ = {
+			isa = PBXGroup;
+			children = (
+				00FD8E5C3078FD7100E96D84 /* WPDUITests.swift */,
+				00FD8E5E3078FD7100E96D84 /* WPDUITestsLaunchTests.swift */,
+			);
+			path = WPDUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00FD8E3D3078FD6F00E96D84 /* WPD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00FD8E623078FD7100E96D84 /* Build configuration list for PBXNativeTarget "WPD" */;
+			buildPhases = (
+				00FD8E3A3078FD6F00E96D84 /* Sources */,
+				00FD8E3B3078FD6F00E96D84 /* Frameworks */,
+				00FD8E3C3078FD6F00E96D84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WPD;
+			productName = WPD;
+			productReference = 00FD8E3E3078FD6F00E96D84 /* WPD.app */;
+			productType = "com.apple.product-type.application";
+		};
+		00FD8E4D3078FD7100E96D84 /* WPDTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00FD8E653078FD7100E96D84 /* Build configuration list for PBXNativeTarget "WPDTests" */;
+			buildPhases = (
+				00FD8E4A3078FD7100E96D84 /* Sources */,
+				00FD8E4B3078FD7100E96D84 /* Frameworks */,
+				00FD8E4C3078FD7100E96D84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00FD8E503078FD7100E96D84 /* PBXTargetDependency */,
+			);
+			name = WPDTests;
+			productName = WPDTests;
+			productReference = 00FD8E4E3078FD7100E96D84 /* WPDTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		00FD8E573078FD7100E96D84 /* WPDUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00FD8E683078FD7100E96D84 /* Build configuration list for PBXNativeTarget "WPDUITests" */;
+			buildPhases = (
+				00FD8E543078FD7100E96D84 /* Sources */,
+				00FD8E553078FD7100E96D84 /* Frameworks */,
+				00FD8E563078FD7100E96D84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00FD8E5A3078FD7100E96D84 /* PBXTargetDependency */,
+			);
+			name = WPDUITests;
+			productName = WPDUITests;
+			productReference = 00FD8E583078FD7100E96D84 /* WPDUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		00FD8E363078FD6F00E96D84 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					00FD8E3D3078FD6F00E96D84 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					00FD8E4D3078FD7100E96D84 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 00FD8E3D3078FD6F00E96D84;
+					};
+					00FD8E573078FD7100E96D84 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 00FD8E3D3078FD6F00E96D84;
+					};
+				};
+			};
+			buildConfigurationList = 00FD8E393078FD6F00E96D84 /* Build configuration list for PBXProject "WPD" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 00FD8E353078FD6F00E96D84;
+			productRefGroup = 00FD8E3F3078FD6F00E96D84 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00FD8E3D3078FD6F00E96D84 /* WPD */,
+				00FD8E4D3078FD7100E96D84 /* WPDTests */,
+				00FD8E573078FD7100E96D84 /* WPDUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00FD8E3C3078FD6F00E96D84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00FD8E493078FD7100E96D84 /* Preview Assets.xcassets in Resources */,
+				00FD8E463078FD7100E96D84 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00FD8E4C3078FD7100E96D84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A20000000000000000000006 /* YOLODemoFixture.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00FD8E563078FD7100E96D84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00FD8E3A3078FD6F00E96D84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00FD8E443078FD6F00E96D84 /* ContentView.swift in Sources */,
+				A20000000000000000000004 /* YOLOLeafAnalyzer.swift in Sources */,
+				A20000000000000000000005 /* WheatLeaf.mlpackage in Sources */,
+				A20000000000000000000003 /* PhotoAnalysisView.swift in Sources */,
+				A20000000000000000000002 /* Records.swift in Sources */,
+				A20000000000000000000001 /* Imaging.swift in Sources */,
+				A20000000000000000000000 /* LeafAnalysis.swift in Sources */,
+				00FD8E423078FD6F00E96D84 /* WPDApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00FD8E4A3078FD7100E96D84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00FD8E533078FD7100E96D84 /* WPDTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00FD8E543078FD7100E96D84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00FD8E5F3078FD7100E96D84 /* WPDUITestsLaunchTests.swift in Sources */,
+				00FD8E5D3078FD7100E96D84 /* WPDUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00FD8E503078FD7100E96D84 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 00FD8E3D3078FD6F00E96D84 /* WPD */;
+			targetProxy = 00FD8E4F3078FD7100E96D84 /* PBXContainerItemProxy */;
+		};
+		00FD8E5A3078FD7100E96D84 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 00FD8E3D3078FD6F00E96D84 /* WPD */;
+			targetProxy = 00FD8E593078FD7100E96D84 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00FD8E603078FD7100E96D84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		00FD8E613078FD7100E96D84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		00FD8E633078FD7100E96D84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WPD/Preview Content\"";
+
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = WheatVision;
+				INFOPLIST_KEY_NSCameraUsageDescription = "使用后置摄像头在本机分析小麦叶片并拍摄实验照片。";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = org.wheatvision.WPD;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		00FD8E643078FD7100E96D84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WPD/Preview Content\"";
+
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = WheatVision;
+				INFOPLIST_KEY_NSCameraUsageDescription = "使用后置摄像头在本机分析小麦叶片并拍摄实验照片。";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = org.wheatvision.WPD;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		00FD8E663078FD7100E96D84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.wheatvision.WPDTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WPD.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WPD";
+			};
+			name = Debug;
+		};
+		00FD8E673078FD7100E96D84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.wheatvision.WPDTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WPD.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WPD";
+			};
+			name = Release;
+		};
+		00FD8E693078FD7100E96D84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.wheatvision.WPDUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_TARGET_NAME = WPD;
+			};
+			name = Debug;
+		};
+		00FD8E6A3078FD7100E96D84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.wheatvision.WPDUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_TARGET_NAME = WPD;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00FD8E393078FD6F00E96D84 /* Build configuration list for PBXProject "WPD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00FD8E603078FD7100E96D84 /* Debug */,
+				00FD8E613078FD7100E96D84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00FD8E623078FD7100E96D84 /* Build configuration list for PBXNativeTarget "WPD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00FD8E633078FD7100E96D84 /* Debug */,
+				00FD8E643078FD7100E96D84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00FD8E653078FD7100E96D84 /* Build configuration list for PBXNativeTarget "WPDTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00FD8E663078FD7100E96D84 /* Debug */,
+				00FD8E673078FD7100E96D84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00FD8E683078FD7100E96D84 /* Build configuration list for PBXNativeTarget "WPDUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00FD8E693078FD7100E96D84 /* Debug */,
+				00FD8E6A3078FD7100E96D84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 00FD8E363078FD6F00E96D84 /* Project object */;
+}

@@ -1,0 +1,6 @@
+# Intel macOS 13 + CPython 3.12. Use with -c, not as Windows/CUDA requirements.
+numpy==1.26.4
+opencv-python==4.11.0.86
+torch==2.2.2
+torchvision==0.17.2
+ultralytics==8.4.177

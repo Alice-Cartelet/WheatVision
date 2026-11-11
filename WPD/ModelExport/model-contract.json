@@ -1,0 +1,38 @@
+{
+  "checkpoint": "models/wheat-qh.pt",
+  "input": [
+    {
+      "name": "image",
+      "width": 512,
+      "height": 512
+    }
+  ],
+  "outputs": [
+    {
+      "name": "var_1324",
+      "shape": [
+        1,
+        38,
+        5376
+      ],
+      "type": 65568
+    },
+    {
+      "name": "var_1362",
+      "shape": [
+        1,
+        32,
+        128,
+        128
+      ],
+      "type": 65568
+    }
+  ],
+  "classes": {
+    "0": "healthy_leaf",
+    "1": "yellowed_leaf"
+  },
+  "specificationVersion": 6,
+  "original_checkpoint_sha256": "22bf7d73f5071f8a42a84ae7bd321e3a90b2fb30fa21c9f053c2fa057214bb08",
+  "checkpoint_sha256": "b873fc648417bfa2257074d322490b99da669737c870ef43d9a00d2c06ec3e90"
+}
