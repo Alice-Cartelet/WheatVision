@@ -251,8 +251,9 @@ extension WPDTests {
         XCTAssertNil(photo.error)
         let result = try XCTUnwrap(photo.result)
         XCTAssertEqual(result.recognitionModel, YOLOLeafAnalyzer.modelName)
-        // Compare visible instances with the desktop prediction at the same threshold.
-        XCTAssertEqual(result.leaves.count, 4)
+        // Check desktop prediction parity. The model predicts one yellow leaf here, while the annotation has two.
+        XCTAssertEqual(result.leaves.count, 5)
+        XCTAssertEqual(result.leaves.filter(\.isYellow).count, 1)
         XCTAssertTrue(result.leaves.allSatisfy { !$0.pixels.isEmpty && $0.confidence != nil })
         XCTAssertEqual(result.total + result.pendingCount, result.leaves.count)
     }

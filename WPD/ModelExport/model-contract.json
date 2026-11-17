@@ -1,5 +1,6 @@
 {
-  "checkpoint": "models/wheat-qh.pt",
+  "sha256": "bb7869c8cc4522510106b2605b8e9450ddb3c407b649ff03ada52f9e942c9761",
+  "checkpoint": "runs/wheat-yellow/weights/best.pt",
   "input": [
     {
       "name": "image",
@@ -32,7 +33,5 @@
     "0": "healthy_leaf",
     "1": "yellowed_leaf"
   },
-  "specificationVersion": 6,
-  "original_checkpoint_sha256": "22bf7d73f5071f8a42a84ae7bd321e3a90b2fb30fa21c9f053c2fa057214bb08",
-  "checkpoint_sha256": "b873fc648417bfa2257074d322490b99da669737c870ef43d9a00d2c06ec3e90"
+  "specificationVersion": 6
 }

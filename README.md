@@ -31,7 +31,11 @@ python qh.py
 
 Intel Mac 如遇 OpenCV 源码编译，使用 `python -m pip install --only-binary=:all: -c constraints-macos-intel.txt -r requirements.txt`。训练脚本默认用 CPU。首次基础训练需要下载 Ultralytics 预训练权重。预测脚本默认使用清理过本机元数据的强化版权重，结果写入 `runs/`。也可用 `python predict_wheat.py "/path/to/photo.jpg" --weights models/wheat-demo.pt` 预测任意照片。
 
-如需重新导出模型，在 Mac 安装 `requirements-export.txt`，运行 `python export_coreml.py --weights runs/wheat-qh/weights/best.pt`。检查导出结果后，再用新的 `WheatLeaf.mlpackage` 替换 App 内的同名模型。内置模型来源和输出约定见 `WPD/ModelExport/model-contract.json`。
+## 整株训练与 App 模型
+
+`whole-wheat-dataset` 和 `yellow-wheat-dataset` 提供共 34 张合成整株图及逐叶标注。用 `python train_whole_wheat.py` 开始整株训练，`python strengthen_whole_wheat.py` 可在首轮最佳权重上继续训练。`python train_yellow_wheat.py --prepare-only` 检查图片和标注并生成数据清单。执行黄化强化训练还需先在 `runs/wheat-whole-refined-512/weights/best-count.pt` 放入选定的两类分割权重。可用 `python evaluate_whole_wheat.py <权重路径> --mask-dedup` 在整株留出图上评估。
+
+App 内置的 Core ML 模型来自黄化强化训练。重新导出时，在 Mac 安装 `requirements-export.txt`，运行 `python export_coreml.py --weights runs/wheat-yellow/weights/best.pt`。检查导出结果后，再用新的 `WheatLeaf.mlpackage` 替换 App 内的同名模型。内置模型来源和输出约定见 `WPD/ModelExport/model-contract.json`。
 
 ## 第三方许可
 

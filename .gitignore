@@ -1,0 +1,14 @@
+.DS_Store
+__pycache__/
+*.cache
+*.download
+xcuserdata/
+/runs/
+/exports/
+/weights/
+/qh-dataset/data.yaml
+/qh-dataset/train.txt
+/yellow-wheat-dataset/data.yaml
+/yellow-wheat-dataset/train.txt
+/yellow-wheat-dataset/val.txt
+/yellow-wheat-dataset/test.txt

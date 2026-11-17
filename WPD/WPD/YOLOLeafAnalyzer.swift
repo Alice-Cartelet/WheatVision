@@ -5,7 +5,7 @@ import UIKit
 /// Decodes the bundled YOLO11 segmentation export and maps masks to the displayed image.
 final class YOLOLeafAnalyzer {
     static let bundled = Result { try YOLOLeafAnalyzer() }
-    static let modelName = "YOLO11n-seg · wheat-qh"
+    static let modelName = "YOLO11n-seg · wheat-yellow"
     static let defaultConfidence = 0.25
 
     private static let side = 512
