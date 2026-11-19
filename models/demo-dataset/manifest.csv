@@ -1,0 +1,37 @@
+﻿file,split,origin,source_file,healthy,yellowed,scope
+wheat_real_00.jpg,val,Kaggle Wheat Leaf dataset,wheat_leaf/Healthy/loh(80).JPG,1,0,foreground leaf/leaves
+wheat_real_03.jpg,train,Kaggle Wheat Leaf dataset,wheat_leaf/Healthy/loh(92).JPG,1,0,foreground leaf/leaves
+wheat_real_05.jpg,train,Kaggle Wheat Leaf dataset,wheat_leaf/Healthy/loh(35).JPG,1,0,foreground leaf/leaves
+wheat_real_07.jpg,train,Kaggle Wheat Leaf dataset,wheat_leaf/Healthy/loh(22).JPG,2,0,foreground leaf/leaves
+wheat_real_08.jpg,train,Kaggle Wheat Leaf dataset,wheat_leaf/Healthy/loh(19).JPG,1,0,foreground leaf/leaves
+wheat_real_09.jpg,train,Kaggle Wheat Leaf dataset,wheat_leaf/Healthy/loh(85).JPG,1,0,foreground leaf/leaves
+wheat_real_10.jpg,train,Kaggle Wheat Leaf dataset,wheat_leaf/Healthy/loh(7).JPG,1,0,foreground leaf/leaves
+wheat_real_11.jpg,val,Kaggle Wheat Leaf dataset,wheat_leaf/Healthy/loh(17).JPG,1,0,foreground leaf/leaves
+wheat_real_13.jpg,val,Kaggle Wheat Leaf dataset,wheat_leaf/Healthy/loh(56).JPG,1,0,foreground leaf/leaves
+wheat_real_15.jpg,train,Kaggle Wheat Leaf dataset,wheat_leaf/Healthy/loh(97).JPG,1,0,foreground leaf/leaves
+wheat_real_16.jpg,train,Kaggle Wheat Leaf dataset,wheat_leaf/Healthy/loh(89).JPG,1,0,foreground leaf/leaves
+wheat_real_17.jpg,val,Kaggle Wheat Leaf dataset,wheat_leaf/Healthy/loh(31).JPG,1,0,foreground leaf/leaves
+wheat_real_20.jpg,val,Kaggle Wheat Leaf dataset,wheat_leaf/Healthy/loh(77).JPG,1,0,foreground leaf/leaves
+wheat_real_21.jpg,train,Kaggle Wheat Leaf dataset,wheat_leaf/Healthy/loh(90).JPG,1,0,foreground leaf/leaves
+wheat_real_24.jpg,train,Kaggle Wheat Leaf dataset,wheat_leaf/septoria/los(92).JPG,0,1,foreground leaf/leaves
+wheat_real_25.jpg,train,Kaggle Wheat Leaf dataset,wheat_leaf/septoria/los(85).JPG,0,1,foreground leaf/leaves
+wheat_real_34.jpg,val,Kaggle Wheat Leaf dataset,wheat_leaf/stripe_rust/lolr(87).JPG,0,1,foreground leaf/leaves
+wheat_real_35.jpg,val,Kaggle Wheat Leaf dataset,wheat_leaf/stripe_rust/lolr(98).JPG,0,1,foreground leaf/leaves
+wheat_real_36.jpg,train,Kaggle Wheat Leaf dataset,wheat_leaf/stripe_rust/lolr(135).JPG,0,1,foreground leaf/leaves
+wheat_real_37.jpg,train,Kaggle Wheat Leaf dataset,wheat_leaf/stripe_rust/lolr(72).JPG,0,1,foreground leaf/leaves
+wheat_real_39.jpg,train,Kaggle Wheat Leaf dataset,wheat_leaf/stripe_rust/lolr(178).JPG,0,1,foreground leaf/leaves
+wheat_real_40.jpg,train,Kaggle Wheat Leaf dataset,wheat_leaf/stripe_rust/lolr(163).JPG,0,1,foreground leaf/leaves
+wheat_real_42.jpg,train,Kaggle Wheat Leaf dataset,wheat_leaf/stripe_rust/lolr(149).JPG,0,1,foreground leaf/leaves
+wheat_real_44.jpg,train,Kaggle Wheat Leaf dataset,wheat_leaf/stripe_rust/lolr(177).JPG,0,1,foreground leaf/leaves
+wheat_real_45.jpg,train,Kaggle Wheat Leaf dataset,wheat_leaf/stripe_rust/lolr(122).JPG,0,1,foreground leaf/leaves
+wheat_real_46.jpg,val,Kaggle Wheat Leaf dataset,wheat_leaf/stripe_rust/lolr(12).JPG,0,1,foreground leaf/leaves
+wheat_real_48.jpg,train,Kaggle Wheat Leaf dataset,wheat_leaf/stripe_rust/lolr(120).JPG,0,1,foreground leaf/leaves
+wheat_real_49.jpg,train,Kaggle Wheat Leaf dataset,wheat_leaf/stripe_rust/lolr(181).JPG,0,1,foreground leaf/leaves
+wheat_real_50.jpg,train,Kaggle Wheat Leaf dataset,wheat_leaf/stripe_rust/lolr(179).JPG,0,1,foreground leaf/leaves
+wheat_real_51.jpg,train,Kaggle Wheat Leaf dataset,wheat_leaf/stripe_rust/lolr(50).JPG,0,1,foreground leaf/leaves
+wheat_real_52.jpg,val,Kaggle Wheat Leaf dataset,wheat_leaf/stripe_rust/lolr(16).JPG,0,1,foreground leaf/leaves
+wheat_real_53.jpg,train,Kaggle Wheat Leaf dataset,wheat_leaf/stripe_rust/lolr(109).JPG,0,1,foreground leaf/leaves
+wheat_real_54.jpg,val,Kaggle Wheat Leaf dataset,wheat_leaf/stripe_rust/lolr(8).JPG,0,1,foreground leaf/leaves
+wheat_generated_A.png,train,OpenAI imagegen,wheat_generated_A.png,2,2,single generated seedling
+wheat_generated_B.png,train,OpenAI imagegen,wheat_generated_B.png,2,1,single generated seedling
+wheat_generated_C.png,test,OpenAI imagegen,wheat_generated_C.png,2,2,single generated seedling

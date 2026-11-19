@@ -1,0 +1,13 @@
+image,split,generation_group,healthy,yellowed
+yellow_01_1.png,train,yellow-sheet-01,3,1
+yellow_01_2.png,train,yellow-sheet-01,2,2
+yellow_01_3.png,train,yellow-sheet-01,2,1
+yellow_01_4.png,train,yellow-sheet-01,4,0
+yellow_02_1.png,train,yellow-sheet-02,2,1
+yellow_02_2.png,train,yellow-sheet-02,2,2
+yellow_02_3.png,train,yellow-sheet-02,3,1
+yellow_02_4.png,train,yellow-sheet-02,4,0
+yellow_03_1.png,val,yellow-sheet-03,2,2
+yellow_03_2.png,val,yellow-sheet-03,1,2
+yellow_03_3.png,val,yellow-sheet-03,3,2
+yellow_03_4.png,val,yellow-sheet-03,3,0
